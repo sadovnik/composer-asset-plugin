@@ -95,7 +95,7 @@ Add the following to your `composer.json`:
         "asset-repositories": [
             {
                 "type": "bower-vcs",
-                "url": "https://github.com/vendor/exemple-asset-name.git"
+                "url": "https://github.com/vendor/example-asset-name.git"
             }
         ]
     }
@@ -129,8 +129,9 @@ Repository.
         "asset-repositories": [
             {
                 "type": "bower-vcs",
-                "url": "https://github.com/vendor/exemple-asset-name.git",
-                "name": "bower-asset/exemple-asset-name"
+                "url": "https://github.com/vendor/example-asset-name.git",
+                "name": "bower-asset/
+                mple-asset-name"
             }
         ]
     }
@@ -143,9 +144,9 @@ You can also use the standard format of Composer for naming your VCS Repository:
 {
     "extra": {
         "asset-repositories": {
-            "bower-asset/exemple-asset-name": {
+            "bower-asset/example-asset-name": {
                 "type": "bower-vcs",
-                "url": "https://github.com/vendor/exemple-asset-name.git"
+                "url": "https://github.com/vendor/example-asset-name.git"
             }
         }
     }
